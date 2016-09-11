@@ -1,0 +1,81 @@
+body {
+   margin: 0px 0px 20px;
+   font-family: Arial;
+}
+
+header, footer {
+   background: #303030;
+   padding: 10px;
+   text-align: center;
+}
+
+#slogan {
+   color: white;
+   font-size: 3em;
+}
+
+#logo_pic {
+   padding: 10px;
+
+   /* Size image proportionally*/
+   width: 50%;
+   height: auto;
+
+   /* Center Image */
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+section {
+   margin: 5% 25% 5% 25%;
+   font-size: 1em;
+
+}
+
+.section_title {
+   font-size: 3em;
+   text-align: center;
+   color: #303030;
+}
+
+.event {
+   padding: 10px;
+   border-bottom: solid #ff392e 1px;
+}
+
+.event:hover {
+   background: #cccccc;
+}
+
+.location_and_date {
+   justify-content: space-between;
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.image_container {
+   justify-content: space-between;
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.image_container > img {
+   height: 70px;
+}
+
+.contact_us_btn {
+   padding: 20px 40px;
+   border-radius: 20px;
+   color: white;
+   background: #171717;
+   text-decoration: none;
+   display: inline-block;
+
+   margin-left: 25%;
+   margin-right: 25%;
+}
+
+.contact_us_btn:hover {
+   background: #ff392e
+}
