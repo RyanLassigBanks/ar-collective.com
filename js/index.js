@@ -22,13 +22,10 @@ for (let eventObj of events) {
          )
 
          p.appendChild(text)
-         p.style.opacity = "0"
          description.appendChild(p)
-
          let pHeight = description.children[0].offsetHeight
          description.style.height = (pHeight + 20) + "px"
-
-         setTimeout(() => p.style.opacity = "1", 2)
+         p.style.opacity = "1"
 
       } else {
          let p = description.children[0]
